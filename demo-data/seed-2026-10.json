@@ -1,0 +1,3777 @@
+{
+  "system": {
+    "legacyDataImported": "demo-seed"
+  },
+  "jimpitan": {
+    "months": {
+      "2026-10": {
+        "monthKey": "2026-10",
+        "status": "active",
+        "createdAt": 1790812800000,
+        "warga": {
+          "1": {
+            "id": 1,
+            "nama": "Warga Demo A",
+            "tunggakanAwal": 0,
+            "lebihAwal": 0,
+            "tunggakan": 0,
+            "lebih": 0,
+            "logHutangAwal": "",
+            "logHutang": "",
+            "setoranAwal": [
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ],
+            "setoran": [
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ]
+          },
+          "2": {
+            "id": 2,
+            "nama": "Warga Demo B",
+            "tunggakanAwal": 0,
+            "lebihAwal": 0,
+            "tunggakan": 0,
+            "lebih": 0,
+            "logHutangAwal": "",
+            "logHutang": "",
+            "setoranAwal": [
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ],
+            "setoran": [
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ]
+          },
+          "3": {
+            "id": 3,
+            "nama": "Warga Demo C",
+            "tunggakanAwal": 0,
+            "lebihAwal": 0,
+            "tunggakan": 0,
+            "lebih": 0,
+            "logHutangAwal": "",
+            "logHutang": "",
+            "setoranAwal": [
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ],
+            "setoran": [
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ]
+          },
+          "4": {
+            "id": 4,
+            "nama": "Warga Demo D",
+            "tunggakanAwal": 0,
+            "lebihAwal": 0,
+            "tunggakan": 0,
+            "lebih": 0,
+            "logHutangAwal": "",
+            "logHutang": "",
+            "setoranAwal": [
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ],
+            "setoran": [
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ]
+          },
+          "5": {
+            "id": 5,
+            "nama": "Warga Demo E",
+            "tunggakanAwal": 0,
+            "lebihAwal": 0,
+            "tunggakan": 0,
+            "lebih": 0,
+            "logHutangAwal": "",
+            "logHutang": "",
+            "setoranAwal": [
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ],
+            "setoran": [
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ]
+          },
+          "6": {
+            "id": 6,
+            "nama": "Warga Demo F",
+            "tunggakanAwal": 0,
+            "lebihAwal": 0,
+            "tunggakan": 0,
+            "lebih": 0,
+            "logHutangAwal": "",
+            "logHutang": "",
+            "setoranAwal": [
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ],
+            "setoran": [
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ]
+          },
+          "7": {
+            "id": 7,
+            "nama": "Warga Demo G",
+            "tunggakanAwal": 0,
+            "lebihAwal": 0,
+            "tunggakan": 0,
+            "lebih": 0,
+            "logHutangAwal": "",
+            "logHutang": "",
+            "setoranAwal": [
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ],
+            "setoran": [
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ]
+          },
+          "8": {
+            "id": 8,
+            "nama": "Warga Demo H",
+            "tunggakanAwal": 0,
+            "lebihAwal": 0,
+            "tunggakan": 0,
+            "lebih": 0,
+            "logHutangAwal": "",
+            "logHutang": "",
+            "setoranAwal": [
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ],
+            "setoran": [
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": 1,
+                "asalTanggal": null,
+                "petugas": "Petugas Demo",
+                "isManual": true,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              },
+              {
+                "nilai": null,
+                "asalTanggal": null,
+                "petugas": null,
+                "isManual": false,
+                "wasDash": false
+              }
+            ]
+          }
+        },
+        "recap": {
+          "days": {
+            "1": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "2": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "3": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "4": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "5": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "6": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "7": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "8": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "9": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "10": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "11": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "12": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "13": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "14": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "15": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "16": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "17": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "18": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "19": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "20": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "21": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "22": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "23": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "24": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "25": {
+              "status": "sudah",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "26": {
+              "status": "belum",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "27": {
+              "status": "belum",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "28": {
+              "status": "belum",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            },
+            "29": {
+              "status": "belum",
+              "diperbaruiOleh": "Admin Demo",
+              "diperbaruiPada": 1790812800000
+            }
+          }
+        }
+      }
+    }
+  },
+  "finance": {
+    "months": {
+      "2026-10": {
+        "transactions": {
+          "demo-oct-income": {
+            "id": "demo-oct-income",
+            "tanggal": "2026-10-06",
+            "jenis": "pemasukan",
+            "kategori": "Donasi demo",
+            "nominal": 125000,
+            "keterangan": "Transaksi fiktif untuk demonstrasi",
+            "dibuatOleh": "Admin Demo",
+            "dibuatPada": 1790812800000
+          },
+          "demo-oct-expense": {
+            "id": "demo-oct-expense",
+            "tanggal": "2026-10-08",
+            "jenis": "pengeluaran",
+            "kategori": "Perlengkapan demo",
+            "nominal": 35000,
+            "keterangan": "Transaksi fiktif untuk demonstrasi",
+            "dibuatOleh": "Admin Demo",
+            "dibuatPada": 1790812800000
+          }
+        }
+      }
+    }
+  }
+}

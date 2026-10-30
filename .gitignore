@@ -1,0 +1,17 @@
+# Dependencies, output, logs
+node_modules/
+dist/
+dist-ssr/
+.firebase/
+*.log
+
+# Environment configurations (never commit local settings)
+.env
+.env.*
+!.env.example
+
+# Editor/OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store

@@ -1,0 +1,94 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "admins": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": false
+      }
+    },
+    "jimpitan": {
+      "months": {
+        "$month": {
+          ".read": true,
+          ".write": "auth != null && (root.child('admins').child(auth.uid).val() === true || (!data.exists() && newData.child('status').val() === 'active'))",
+          "status": {
+            ".write": "auth != null && (root.child('admins').child(auth.uid).val() === true || (data.val() === 'active' && newData.val() === 'archived'))"
+          },
+          "archivedAt": {
+            ".write": "auth != null && (root.child('admins').child(auth.uid).val() === true || (data.parent().child('status').val() === 'active' && newData.isNumber()))"
+          },
+          "warga": {
+            "$residentId": {
+              ".write": "auth != null && (data.parent().parent().child('status').val() === 'active' || root.child('admins').child(auth.uid).val() === true)"
+            }
+          },
+          "recap": {
+            "days": {
+              ".read": true,
+              "$day": {
+                ".write": "auth != null && root.child('admins').child(auth.uid).val() === true"
+              }
+            }
+          }
+        }
+      }
+    },
+    "sessions": {
+      "$month": {
+        ".read": "auth != null",
+        "$uid": {
+          ".write": "auth != null && auth.uid === $uid"
+        }
+      }
+    },
+    "locks": {
+      "$month": {
+        ".read": "auth != null",
+        "$cell": {
+          ".write": "auth != null && (auth.token.firebase.sign_in_provider === 'anonymous' || root.child('admins').child(auth.uid).val() === true)"
+        }
+      }
+    },
+    "finance": {
+      "months": {
+        "$month": {
+          ".read": true,
+          "transactions": {
+            "$transactionId": {
+              ".write": "auth != null && root.child('admins').child(auth.uid).val() === true"
+            }
+          },
+          "deposits": {
+            "$date": {
+              ".write": "auth != null && root.child('admins').child(auth.uid).val() === true"
+            }
+          }
+        }
+      }
+    },
+    "reports": {
+      "$month": {
+        ".read": true,
+        "$date": {
+          ".write": "auth != null"
+        }
+      }
+    },
+    "system": {
+      "legacyDataImported": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      },
+      "legacyFinancePdfImported": {
+        ".read": "auth != null",
+        ".write": "auth != null && root.child('admins').child(auth.uid).val() === true"
+      }
+    },
+    "data_jimpitan": {
+      ".read": "auth != null",
+      ".write": false
+    }
+  }
+}
