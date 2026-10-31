@@ -30,3 +30,10 @@
 - Untuk dependency/security, catat versi dan jumlah/severity temuan sebelum/sesudah serta temuan yang belum selesai di `docs/security-audit.md`. Audit paket tidak membuktikan eksploitabilitas aplikasi.
 - Jangan menyimpan environment, secret, token, identitas warga asli, atau data produksi. Gunakan ringkasan log yang aman; file sementara bukan bukti permanen.
 - Perbarui `PROJECT_MAP.md` bila struktur, alur, perintah, atau guardrail berubah. Dokumentasi tidak memberi izin mengubah source, dependency, Rules, atau melakukan deploy di luar lingkup tugas.
+
+
+### Penomoran workflow
+
+- Gunakan nomor tiga digit berurutan dan unik pada `docs/workflows/`, mulai `001`, dengan nama `<nomor>-<topik>.md`. Periksa file dan indeks sebelum memilih nomor; workflow baru memakai nomor berikutnya setelah nomor tertinggi yang tersedia.
+- Sinkronkan nomor, judul, dan tautan dengan indeks `docs/ai-development-log.md`. Jangan menomori ulang workflow lama atau memakai ulang nomor yang sudah ada. Pengisian celah historis harus dijelaskan sebagai rekonstruksi, disertai sumber bukti dan tanggal dokumentasi.
+- Nomor studi kasus historis merupakan namespace terpisah; jangan menduplikasikannya sebagai nomor workflow lain atau menghapus riwayat untuk menyamakan nomor.

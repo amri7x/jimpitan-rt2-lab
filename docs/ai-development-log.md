@@ -39,6 +39,7 @@ Branch diperiksa: `feature/report-loading`. Tiga workflow berikut direkonstruksi
 
 | Workflow | Ringkasan keputusan dan hasil | Rincian |
 |---|---|---|
+| 001 — Isolasi proyek | Rekonstruksi safe clone, Firebase demo, data dummy, environment, root commit `19c1ee7`, dan branch; membedakan bukti lokal dari laporan pemilik | [Bukti, batasan dan tindak lanjut](workflows/001-project-isolation.md) |
 | 002 — Loading laporan | State UI dan guard useRef sinkron, cleanup melalui finally; alur unduhan lalu write dipertahankan | [Tujuan, temuan, file, tes, batasan, tindak lanjut](workflows/002-report-loading.md) |
 | 003 — Component testing | Vitest/jsdom/React Testing Library dengan Firebase/canvas/download mock; empat tes lulus | [Konfigurasi, skenario, bukti dan batasan](workflows/003-component-testing.md) |
 | 004 — Dependency patch | Vite/PostCSS dan transitive kompatibel; audit 10 → 4 paket, seluruh sisa high pada Firebase/gRPC | [Versi, keputusan, regression testing dan risiko](workflows/004-dependency-security-patch.md) |
@@ -54,3 +55,12 @@ Branch diperiksa: `feature/report-loading`. Tiga workflow berikut direkonstruksi
 ### Pemakaian log selanjutnya
 
 Setelah workflow selesai, tambahkan ringkasan bertanggal dan tautan detail di `docs/workflows/`; jangan mengganti riwayat lama. Pisahkan hasil aktual, bukti sesi terdahulu, rencana, dan status **belum diverifikasi**. Ikuti bagian Workflow Documentation di `../AGENTS.md`. [Peta proyek](../PROJECT_MAP.md) membantu menemukan source dan perintah terkait.
+
+
+## Pelengkapan Workflow 001 — 31 Oktober 2026
+
+[Workflow 001 — Isolasi proyek portofolio](workflows/001-project-isolation.md) ditambahkan setelah Workflow 002–004 untuk melengkapi urutan dokumentasi. Tanggal ini adalah tanggal rekonstruksi, bukan tanggal cloning. Root commit `19c1ee7` dan tiga branch lokal terverifikasi; setup Firebase live, waktu `git init`, dan testing pada baseline **belum diverifikasi**.
+
+Nomor **Studi kasus 001 — Audit Firebase Realtime Database Rules** pada bagian historis di atas adalah nomor studi kasus, bukan Workflow 001. Isinya tetap dipertahankan; indeks workflow memakai namespace tersendiri dan kini berurutan 001–004 tanpa duplikasi file.
+
+Pemeriksaan Git terbaru menunjukkan workflow lanjutan kini memiliki commit `c2ce297`, `cae9839`, dan `470346c`. Catatan sebelumnya tentang working tree/belum diverifikasi dipertahankan sebagai status pada saat pencatatan, bukan status Git terkini. `PROJECT_MAP.md` tidak diubah karena penambahan detail historis ini tidak mengubah alur, struktur utama, atau perintah proyek.
