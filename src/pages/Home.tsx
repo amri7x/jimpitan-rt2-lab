@@ -43,6 +43,7 @@ export const Home: React.FC = () => {
   const [dailyStatuses, setDailyStatuses] = useState<Record<string, DailyRecapStatus>>({});
   const [dataError, setDataError] = useState("");
   const [isFirstLoadDone, setIsFirstLoadDone] = useState(false);
+  const [isSavingReport, setIsSavingReport] = useState(false);
 
   // UI States
   const [numpad, setNumpad] = useState<{ vis: boolean, idWarga: number, idxTgl: number, nama: string, val: string } | null>(null);
@@ -54,6 +55,7 @@ export const Home: React.FC = () => {
   const [tanggalHariIniWIB, setTanggalHariIniWIB] = useState<number>(new Date().getDate());
 
   const tableRef = useRef<HTMLDivElement>(null);
+  const savingReportRef = useRef(false);
   const jumlahHari = getDaysInMonth(bulanAktif);
   const listTanggal = Array.from({ length: jumlahHari }, (_, i) => i + 1);
   const headerHariIniRef = useRef<HTMLTableHeaderCellElement>(null);
@@ -407,24 +409,33 @@ export const Home: React.FC = () => {
   };
 
   const eksekusiSelesaiDanKirim = async () => {
+    if (savingReportRef.current) return;
+    savingReportRef.current = true;
+    setIsSavingReport(true);
+
     try {
       const { default: html2canvas } = await import("html2canvas");
       const tanggal = getTodayInJakarta();
       const namaFile = `Jimpitan_${bulanAktif}_${tanggalHariIniWIB}.png`;
       if (tableRef.current) {
-        const elemenTabel = tableRef.current.querySelector('table') || tableRef.current;
-        const posisiScrollKiri = tableRef.current.scrollLeft;
-        const posisiScrollAtas = tableRef.current.scrollTop;
-        tableRef.current.scrollLeft = 0; 
-        tableRef.current.scrollTop = 0;
-        await new Promise(resolve => setTimeout(resolve, 300));
-        elemenTabel.classList.add('disable-sticky-capture');
-        const gambarCanvas = await html2canvas(elemenTabel as HTMLElement, { 
-          scale: 2, scrollX: 0, scrollY: 0, backgroundColor: '#ffffff' 
-        });
-        elemenTabel.classList.remove('disable-sticky-capture');
-        tableRef.current.scrollLeft = posisiScrollKiri; 
-        tableRef.current.scrollTop = posisiScrollAtas;
+        const pembungkusTabel = tableRef.current;
+        const elemenTabel = pembungkusTabel.querySelector('table') || pembungkusTabel;
+        const posisiScrollKiri = pembungkusTabel.scrollLeft;
+        const posisiScrollAtas = pembungkusTabel.scrollTop;
+        let gambarCanvas: HTMLCanvasElement;
+        try {
+          pembungkusTabel.scrollLeft = 0;
+          pembungkusTabel.scrollTop = 0;
+          await new Promise(resolve => setTimeout(resolve, 300));
+          elemenTabel.classList.add('disable-sticky-capture');
+          gambarCanvas = await html2canvas(elemenTabel as HTMLElement, {
+            scale: 2, scrollX: 0, scrollY: 0, backgroundColor: '#ffffff'
+          });
+        } finally {
+          elemenTabel.classList.remove('disable-sticky-capture');
+          pembungkusTabel.scrollLeft = posisiScrollKiri;
+          pembungkusTabel.scrollTop = posisiScrollAtas;
+        }
         const blob = await new Promise<Blob | null>((resolve) => gambarCanvas.toBlob(resolve, "image/png"));
         if (blob) {
           const urlGambar = URL.createObjectURL(blob);
@@ -450,6 +461,9 @@ export const Home: React.FC = () => {
       alert(`Laporan tersimpan di Firebase dan gambar ${namaFile} berhasil diunduh.`);
     } catch {
       alert('Gagal menyimpan laporan ke Firebase. Periksa koneksi dan aturan akses database.');
+    } finally {
+      savingReportRef.current = false;
+      setIsSavingReport(false);
     }
   };
 
@@ -563,8 +577,8 @@ export const Home: React.FC = () => {
       </div>
 
       <div style={{ display: 'flex', gap: '10px', marginTop: '10px' }}>
-        <button className="btn-submit" style={{ flex: 1 }} onClick={eksekusiSelesaiDanKirim}>
-          Unduh & Simpan Laporan
+        <button className="btn-submit" style={{ flex: 1 }} onClick={eksekusiSelesaiDanKirim} disabled={isSavingReport} aria-busy={isSavingReport}>
+          {isSavingReport ? 'Memproses laporan...' : 'Unduh & Simpan Laporan'}
         </button>
       </div>
 
