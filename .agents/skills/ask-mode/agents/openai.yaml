@@ -1,0 +1,3 @@
+interface:
+  display_name: "Ask Mode"
+  short_description: "Answer questions in chat without file changes"

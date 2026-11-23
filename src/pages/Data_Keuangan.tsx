@@ -152,39 +152,39 @@ export const Data_Keuangan = () => {
 	})[jenis];
 
 	return (
-		<main className="finance-page">
-			<div className="finance-heading">
-				<p className="finance-eyebrow">Jimpitan RT 02</p>
-				<h1>Riwayat Keuangan</h1>
-				<p>Riwayat transaksi dan setoran tersimpan di Firebase.</p>
+		<main className="min-h-[calc(100vh-58px)] px-[clamp(16px,4vw,48px)] py-7">
+			<div>
+				<p className="m-0 text-xs font-bold uppercase text-green-700">Jimpitan RT 02</p>
+				<h1 className="my-1 mb-2 text-[26px] text-blue-950">Riwayat Keuangan</h1>
+				<p className="m-0 text-slate-500">Riwayat transaksi dan setoran tersimpan di Firebase.</p>
 			</div>
-			<div className="finance-toolbar">
+			<div className="my-6 flex flex-wrap items-start gap-3 border-y border-gray-300 py-3">
 				<label htmlFor="finance-month">Bulan</label>
-				<input id="finance-month" type="month" value={monthKey} max={getActiveMonthKey()} onChange={(event) => setMonthKey(event.target.value)} />
-				<strong>{monthLabel(monthKey)}</strong>
+				<input className="min-h-10 rounded border border-slate-300 bg-white px-2.5 py-2 text-gray-800" id="finance-month" type="month" value={monthKey} max={getActiveMonthKey()} onChange={(event) => setMonthKey(event.target.value)} />
+				<strong className="text-green-800">{monthLabel(monthKey)}</strong>
 			</div>
-			{loading || openingBalanceLoading ? <p role="status">Memuat riwayat dan saldo bulan sebelumnya...</p> : loadError ? <p className="form-error" role="alert">Tidak dapat membaca riwayat Firebase: {loadError}</p> : (
+			{loading || openingBalanceLoading ? <p role="status">Memuat riwayat dan saldo bulan sebelumnya...</p> : loadError ? <p className="text-sm text-red-700" role="alert">Tidak dapat membaca riwayat Firebase: {loadError}</p> : (
 				<>
-					<section className="finance-totals" aria-label="Ringkasan bulan">
-						<div><span>Saldo awal tercatat</span><strong>{rupiah(totals.saldo_awal)}</strong></div>
-						<div><span>Pemasukan</span><strong>{rupiah(totals.pemasukan)}</strong></div>
-						<div><span>Pengeluaran</span><strong>{rupiah(totals.pengeluaran)}</strong></div>
-						<div><span>Pinjaman</span><strong>{rupiah(totals.pinjaman)}</strong></div>
-						<div><span>Pengembalian</span><strong>{rupiah(totals.pengembalian)}</strong></div>
-						<div><span>Saldo akhir bulan</span><strong>{rupiah(saldoBersihBulan)}</strong></div>
+					<section className="grid grid-cols-4 gap-4 border-b border-gray-300 py-4 max-[760px]:grid-cols-2" aria-label="Ringkasan bulan">
+						<div className="grid gap-1.5"><span className="text-[13px] text-slate-500">Saldo awal tercatat</span><strong className="text-lg text-blue-950">{rupiah(totals.saldo_awal)}</strong></div>
+						<div className="grid gap-1.5"><span className="text-[13px] text-slate-500">Pemasukan</span><strong className="text-lg text-blue-950">{rupiah(totals.pemasukan)}</strong></div>
+						<div className="grid gap-1.5"><span className="text-[13px] text-slate-500">Pengeluaran</span><strong className="text-lg text-blue-950">{rupiah(totals.pengeluaran)}</strong></div>
+						<div className="grid gap-1.5"><span className="text-[13px] text-slate-500">Pinjaman</span><strong className="text-lg text-blue-950">{rupiah(totals.pinjaman)}</strong></div>
+						<div className="grid gap-1.5"><span className="text-[13px] text-slate-500">Pengembalian</span><strong className="text-lg text-blue-950">{rupiah(totals.pengembalian)}</strong></div>
+						<div className="grid gap-1.5"><span className="text-[13px] text-slate-500">Saldo akhir bulan</span><strong className="text-lg text-blue-950">{rupiah(saldoBersihBulan)}</strong></div>
 					</section>
-					<section className="finance-section">
-						<h2>Transaksi</h2>
-						{allTransactions.length === 0 ? <p>Belum ada transaksi pada bulan ini.</p> : (
-							<div className="finance-table-wrap"><table className="finance-table"><thead><tr><th>Tanggal</th><th>Jenis</th><th>Kategori</th><th>Keterangan</th><th>Nominal</th><th>Sisa Saldo</th><th>Dicatat oleh</th></tr></thead><tbody>
+					<section className="mt-6 border-b border-gray-300 pb-5">
+						<h2 className="mb-3.5 text-lg text-slate-700">Transaksi</h2>
+						{allTransactions.length === 0 ? <p className="text-sm text-slate-500">Belum ada transaksi pada bulan ini.</p> : (
+							<div className="overflow-x-auto"><table className="min-w-[720px] border-collapse text-[13px]"><thead><tr><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Tanggal</th><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Jenis</th><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Kategori</th><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Keterangan</th><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Nominal</th><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Sisa Saldo</th><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Dicatat oleh</th></tr></thead><tbody>
 								{allTransactions.map((item) => <tr key={item.id}><td title={item.tanggalSumber ? `Tanggal sumber PDF: ${item.tanggalSumber}` : undefined}>{item.tanggal}</td><td>{labelJenis(item.jenis)}</td><td>{item.kategori}</td><td>{item.keterangan}</td><td>{rupiah(item.nominal)}</td><td>{rupiah(item.saldoTercatat ?? 0)}</td><td>{item.dibuatOleh === "Rekap jimpitan" ? "Rekap jimpitan" : item.dibuatOleh === "Impor Total Rekap Jimpitan PDF" ? "Data impor" : "Admin"}</td></tr>)}
 							</tbody></table></div>
 						)}
 					</section>
-					<section className="finance-section">
-						<h2>Setoran Jimpitan Bulanan</h2>
-						<p>Total jimpitan di atas hanya memasukkan hari yang berstatus sudah setor.</p>
-						<p>{Array.from({ length: getDaysInMonth(monthKey) }, (_, index) => index + 1).filter((day) => dailyStatuses[String(day)]?.status === "sudah").length} hari sudah disetor · {Array.from({ length: getDaysInMonth(monthKey) }, (_, index) => index + 1).filter((day) => dailyStatuses[String(day)]?.status !== "sudah").length} hari belum disetor</p>
+					<section className="mt-6 border-b border-gray-300 pb-5">
+						<h2 className="mb-3.5 text-lg text-slate-700">Setoran Jimpitan Bulanan</h2>
+						<p className="text-sm text-slate-500">Total jimpitan di atas hanya memasukkan hari yang berstatus sudah setor.</p>
+						<p className="text-sm text-slate-500">{Array.from({ length: getDaysInMonth(monthKey) }, (_, index) => index + 1).filter((day) => dailyStatuses[String(day)]?.status === "sudah").length} hari sudah disetor · {Array.from({ length: getDaysInMonth(monthKey) }, (_, index) => index + 1).filter((day) => dailyStatuses[String(day)]?.status !== "sudah").length} hari belum disetor</p>
 					</section>
 				</>
 				)}
