@@ -9,7 +9,6 @@ dist-ssr/
 .env
 .env.*
 !.env.example
-.env.local
 google-services.json
 
 # Editor/OS
