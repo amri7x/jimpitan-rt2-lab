@@ -1,0 +1,5 @@
+import { useEffect, useState } from "react";
+import { ScrollView, Text, View } from "react-native";
+import { applyRunningBalances, getActiveMonthKey, getMonthPaths, type FinanceTransaction } from "@jimpitan/core";
+import { listen, unlisten } from "../../src/services/jimpitanRepository";
+export default function Keuangan() { const month = getActiveMonthKey(); const [items, setItems] = useState<FinanceTransaction[]>([]); useEffect(() => { const path = getMonthPaths(month).transactions; listen<Record<string, FinanceTransaction>>(path, (value) => setItems(applyRunningBalances(0, Object.values(value ?? {})))); return () => unlisten(path); }, [month]); return <ScrollView className="flex-1 bg-slate-50 p-4"><Text className="mb-4 text-xl font-bold">Riwayat Keuangan</Text>{items.map((item) => <View key={item.id} className="mb-2 rounded bg-white p-3"><Text className="font-semibold">{item.kategori}</Text><Text>Rp{item.nominal.toLocaleString("id-ID")} · saldo Rp{item.saldoTercatat?.toLocaleString("id-ID")}</Text></View>)}</ScrollView>; }

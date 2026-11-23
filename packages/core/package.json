@@ -1,0 +1,12 @@
+{
+  "name": "@jimpitan/core",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./monthly": "./src/monthly.ts",
+    "./finance-balance": "./src/financeBalance.ts",
+    "./jimpitan": "./src/jimpitan.ts"
+  }
+}

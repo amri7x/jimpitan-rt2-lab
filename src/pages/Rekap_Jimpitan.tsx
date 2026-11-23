@@ -45,29 +45,29 @@ export const Rekap_Jimpitan = () => {
 	const formatWeekday = (day: number) => new Intl.DateTimeFormat("id-ID", { weekday: "long", timeZone: "Asia/Jakarta" }).format(new Date(`${monthKey}-${String(day).padStart(2, "0")}T12:00:00+07:00`));
 
 	return (
-		<main className="finance-page recap-page">
-			<div className="finance-heading">
-				<p className="finance-eyebrow">Arsip Jimpitan</p>
-				<h1>Rekap Jimpitan</h1>
-				<p>Rekap harian dan catatan setoran warga untuk {monthLabel(monthKey)}.</p>
+		<main className="min-h-[calc(100vh-58px)] px-[clamp(16px,4vw,48px)] py-7">
+			<div>
+				<p className="m-0 text-xs font-bold uppercase text-green-700">Arsip Jimpitan</p>
+				<h1 className="my-1 mb-2 text-[26px] text-blue-950">Rekap Jimpitan</h1>
+				<p className="m-0 text-slate-500">Rekap harian dan catatan setoran warga untuk {monthLabel(monthKey)}.</p>
 			</div>
-			<div className="finance-toolbar">
+			<div className="my-6 flex flex-wrap items-start gap-3 border-y border-gray-300 py-3">
 				<label htmlFor="recap-month">Bulan</label>
-				<input id="recap-month" type="month" value={monthKey} max={getActiveMonthKey()} onChange={(event) => setMonthKey(event.target.value)} />
-				<strong>{monthLabel(monthKey)}</strong>
-				{data && <span className={`month-status month-status-${data.status}`}>{data.status === "active" ? "Bulan aktif" : "Arsip"}</span>}
+				<input className="min-h-10 rounded border border-slate-300 bg-white px-2.5 py-2 text-gray-800" id="recap-month" type="month" value={monthKey} max={getActiveMonthKey()} onChange={(event) => setMonthKey(event.target.value)} />
+				<strong className="text-green-800">{monthLabel(monthKey)}</strong>
+				{data && <span className={data.status === "active" ? "border-l-[3px] border-green-800 px-2 py-[5px] text-xs font-bold text-green-800" : "border-l-[3px] border-slate-500 px-2 py-[5px] text-xs font-bold text-slate-600"}>{data.status === "active" ? "Bulan aktif" : "Arsip"}</span>}
 			</div>
-			{loading ? <p role="status">Memuat rekap...</p> : loadError ? <p className="form-error" role="alert">Tidak dapat membaca rekap Firebase: {loadError}</p> : !data ? <p className="finance-empty" role="status">Belum ada data untuk bulan ini.</p> : (
+			{loading ? <p role="status">Memuat rekap...</p> : loadError ? <p className="text-sm text-red-700" role="alert">Tidak dapat membaca rekap Firebase: {loadError}</p> : !data ? <p className="mt-7 border-y border-gray-300 py-6 text-sm text-slate-500" role="status">Belum ada data untuk bulan ini.</p> : (
 				<>
-					<section className="finance-totals" aria-label="Ringkasan rekap bulan">
-						<div><span>Total bulan</span><strong>{totalAll}k</strong></div>
-						<div><span>Total sudah setor</span><strong>{totalPaid}k</strong></div>
-						<div><span>Total belum setor</span><strong>{totalAll - totalPaid}k</strong></div>
-						<div><span>Warga</span><strong>{data.warga.length}</strong></div>
+					<section className="grid grid-cols-4 gap-4 border-b border-gray-300 py-4 max-[760px]:grid-cols-2" aria-label="Ringkasan rekap bulan">
+						<div className="grid gap-1.5"><span className="text-[13px] text-slate-500">Total bulan</span><strong className="text-lg text-blue-950">{totalAll}k</strong></div>
+						<div className="grid gap-1.5"><span className="text-[13px] text-slate-500">Total sudah setor</span><strong className="text-lg text-blue-950">{totalPaid}k</strong></div>
+						<div className="grid gap-1.5"><span className="text-[13px] text-slate-500">Total belum setor</span><strong className="text-lg text-blue-950">{totalAll - totalPaid}k</strong></div>
+						<div className="grid gap-1.5"><span className="text-[13px] text-slate-500">Warga</span><strong className="text-lg text-blue-950">{data.warga.length}</strong></div>
 					</section>
-					<section className="finance-section">
-						<h2>Ringkasan Harian</h2>
-						<div className="finance-table-wrap"><table className="finance-table"><thead><tr><th>Hari</th><th>Tanggal</th><th>Uang (ribu)</th><th>Status</th><th>Nama Petugas</th></tr></thead><tbody>
+					<section className="mt-6 border-b border-gray-300 pb-5">
+						<h2 className="mb-3.5 text-lg text-slate-700">Ringkasan Harian</h2>
+						<div className="overflow-x-auto"><table className="min-w-[720px] border-collapse text-[13px]"><thead><tr><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Hari</th><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Tanggal</th><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Uang (ribu)</th><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Status</th><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Nama Petugas</th></tr></thead><tbody>
 							{days.map((day) => {
 								const staff = Array.from(new Set(data.warga.flatMap((resident) => {
 									const collector = resident.setoran[day - 1]?.petugas;
@@ -78,10 +78,10 @@ export const Rekap_Jimpitan = () => {
 							})}
 						</tbody></table></div>
 					</section>
-					<section className="finance-section">
-						<h2>Detail Setoran Warga</h2>
-						<div className="finance-table-wrap"><table className="finance-table recap-matrix"><thead><tr><th>No</th><th>Nama Warga</th>{days.map((day) => <th key={day} title={`${formatWeekday(day)} ${monthKey}-${String(day).padStart(2, "0")}`}>{day}<small>{data.recap?.days?.[String(day)]?.status === "sudah" ? "Setor" : "Belum"}</small></th>)}<th>Total</th><th>Tunggakan</th><th>Lebih</th></tr></thead><tbody>
-							{data.warga.map((resident, index) => <tr key={resident.id}><td>{index + 1}</td><td>{resident.nama}</td>{days.map((day) => {
+					<section className="mt-6 border-b border-gray-300 pb-5">
+						<h2 className="mb-3.5 text-lg text-slate-700">Detail Setoran Warga</h2>
+						<div className="overflow-x-auto"><table className="min-w-max border-collapse text-[13px]"><thead><tr><th className="sticky left-0 z-[5] border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">No</th><th className="sticky left-[42px] z-[5] min-w-[150px] border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Nama Warga</th>{days.map((day) => <th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950" key={day} title={`${formatWeekday(day)} ${monthKey}-${String(day).padStart(2, "0")}`}>{day}<small className="mt-[3px] block text-[9px] font-medium">{data.recap?.days?.[String(day)]?.status === "sudah" ? "Setor" : "Belum"}</small></th>)}<th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Total</th><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Tunggakan</th><th className="static border border-gray-300 bg-green-50 p-2.5 text-left text-green-950">Lebih</th></tr></thead><tbody>
+							{data.warga.map((resident, index) => <tr key={resident.id}><td className="sticky left-0 z-[3] border border-gray-300 bg-white p-2.5 text-left">{index + 1}</td><td className="sticky left-[42px] z-[3] min-w-[150px] border border-gray-300 bg-white p-2.5 text-left">{resident.nama}</td>{days.map((day) => {
 								const entry = resident.setoran[day - 1];
 								return <td key={day} title={entry?.petugas ? `Petugas: ${entry.petugas}` : "Belum ada petugas"}>{entry?.nilai ?? ""}</td>;
 							})}<td>{resident.setoran.reduce((sum, entry) => sum + (typeof entry.nilai === "number" && entry.nilai > 0 ? entry.nilai : 0), 0)}</td><td>{resident.tunggakan}k</td><td>{resident.lebih}k</td></tr>)}

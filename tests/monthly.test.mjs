@@ -54,7 +54,11 @@ test('path database untuk data bulanan konsisten', () => {
   assert.deepEqual(getMonthPaths('2026-10'), {
     month: 'jimpitan/months/2026-10',
     warga: 'jimpitan/months/2026-10/warga',
+    recap: 'jimpitan/months/2026-10/recap/days',
     transactions: 'finance/months/2026-10/transactions',
     deposits: 'finance/months/2026-10/deposits',
+    sessions: 'sessions/2026-10',
+    locks: 'locks/2026-10',
+    reports: 'reports/2026-10',
   });
 });

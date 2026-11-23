@@ -471,10 +471,10 @@ export const Home: React.FC = () => {
     const w = daftarWarga.find(x => x?.id === idWarga);
     if (!w) return "";
     let totalHariKosong = w.setoran.slice(0, idxTgl).filter(s => s.nilai === null || s.nilai === "-").length;
-    if (totalHariKosong === 0 && w.tunggakan === 0) return <span className="txt-rajin">⭐ Warga Rajin</span>;
+    if (totalHariKosong === 0 && w.tunggakan === 0) return <span className="font-bold text-green-600">⭐ Warga Rajin</span>;
     const totalPerlu = totalHariKosong + 1 + w.tunggakan;
     return (
-      <span className="txt-perlu">
+      <span className="font-bold text-red-600">
         Kosong: {totalHariKosong} hari | Tunggakan: {w.tunggakan}k <br />
         <small style={{ color: '#555' }}>Info: {totalHariKosong} hari kosong + 1 hari ini + {w.tunggakan}k tunggakan = Perlu {totalPerlu}k</small>
       </span>
@@ -483,36 +483,36 @@ export const Home: React.FC = () => {
 
   if (!petugas) {
     return (
-      <div className="login-screen">
-        <div className="login-box">
+      <div className="flex h-screen items-center justify-center bg-gray-100">
+        <div className="flex flex-col justify-center rounded-xl bg-white p-6 text-center shadow-[0_4px_10px_rgba(0,0,0,0.05)]">
           <h2>Sistem Jimpitan RT 02</h2>
-          <input type="text" placeholder="Masukkan nama petugas..." autoComplete="name" value={loginInput} onChange={e => setLoginInput(e.target.value)} />
-          <button onClick={handleLogin}>Buka Akses Website</button>
+          <input className="my-3 w-[91%] rounded-md border border-gray-300 p-2.5" type="text" placeholder="Masukkan nama petugas..." autoComplete="name" value={loginInput} onChange={e => setLoginInput(e.target.value)} />
+          <button className="w-full rounded-md bg-blue-600 px-5 py-2.5 font-bold text-white" onClick={handleLogin}>Buka Akses Website</button>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="app-container">
-      <div className="top-bar">
-        <div className="top-bar-left">👤 <strong>Petugas:</strong> {petugas.nama}</div>
-        <div className="top-bar-center">{monthLabel(bulanAktif)} · 🕒 <strong>{waktuWIB}</strong></div>
-        <div className="top-bar-right">
+    <div className="flex h-screen flex-col p-2.5">
+      <div className="mb-2.5 flex items-center justify-between rounded-lg bg-white px-4 py-3 text-sm shadow-[0_2px_4px_rgba(0,0,0,0.05)]">
+        <div>👤 <strong>Petugas:</strong> {petugas.nama}</div>
+        <div className="text-[15px] font-bold text-blue-600">{monthLabel(bulanAktif)} · 🕒 <strong>{waktuWIB}</strong></div>
+        <div>
           🟢 Sesi: <strong>{activeUsers.length}/4 Aktif</strong>
         </div>
       </div>
 
-      {dataError && <p className="form-error" role="alert">Tidak dapat memuat data jimpitan Firebase: {dataError}</p>}
+      {dataError && <p className="text-sm text-red-700" role="alert">Tidak dapat memuat data jimpitan Firebase: {dataError}</p>}
 
-      <div className="table-wrapper" ref={tableRef}>
-        <table>
+      <div className="max-h-[70vh] overflow-auto rounded-lg border border-[#e5e7eb] bg-white" ref={tableRef}>
+        <table className="w-full border-collapse text-[13px] [&.disable-sticky-capture_thead]:!static [&.disable-sticky-capture_tr]:!static [&.disable-sticky-capture_th]:!static [&.disable-sticky-capture_td]:!static [&.disable-sticky-capture_th]:!transform-none [&.disable-sticky-capture_td]:!transform-none">
           <thead>
             <tr>
-              <th className="sticky-col left-0">No</th>
-              <th className="sticky-col left-1">Nama Warga</th>
+              <th className="!sticky top-0 left-0 !z-20 !min-w-[35px] border border-[#e5e7eb] bg-[#f9fafb] px-2 py-2.5">No</th>
+              <th className="!sticky top-0 left-[35px] !z-20 !min-w-[140px] border border-[#e5e7eb] bg-[#f9fafb] px-2 py-2.5 text-left font-medium">Nama Warga</th>
               {listTanggal.map(tgl => (
-                <th key={tgl} className={tgl === tanggalHariIniWIB ? "hari-aktif-kolom" : ""}
+                <th key={tgl} className={tgl === tanggalHariIniWIB ? "!sticky top-0 z-10 min-w-[42px] border-2 border-[#2563eb] bg-[#dbeafe] px-2 py-2.5 font-semibold text-[#1e40af]" : "!sticky top-0 z-10 min-w-[42px] border border-[#e5e7eb] bg-[#f9fafb] px-2 py-2.5 font-semibold"}
                 ref={tgl === tanggalHariIniWIB ? headerHariIniRef : null}>{tgl}</th>
               ))}
               <th>Total</th><th>Tunggakan</th><th>Lebih</th><th>Status Setor</th>
@@ -521,8 +521,8 @@ export const Home: React.FC = () => {
           <tbody>
             {daftarWarga.map((w, idxUrut) => (
               <tr key={w.id}>
-                <td className="sticky-col left-0">{idxUrut + 1}</td>
-                <td className="sticky-col left-1 nama-warga">{w.nama}</td>
+                <td className="!sticky left-0 !z-[5] !min-w-[35px] border border-[#e5e7eb] bg-white px-2 py-2.5 text-center">{idxUrut + 1}</td>
+                <td className="!sticky left-[35px] !z-[5] !min-w-[140px] border border-[#e5e7eb] bg-white px-2 py-2.5 text-left font-medium">{w.nama}</td>
                 {listTanggal.map((_, idxTgl) => {
                   const s = w.setoran[idxTgl] ?? createBlankSetoran();
                   const cellKey = `${w.id}_${idxTgl}`;
@@ -531,43 +531,43 @@ export const Home: React.FC = () => {
                   const isFuture = (idxTgl + 1) > tanggalHariIniWIB;
                   const isFlashing = flashingCells.includes(cellKey);
                   
-                  let cellClass = "sel-tgl";
-                  if (s.nilai === 0) cellClass += " sel-zero";
-                  if ((isPast || isFuture) && !isAdmin) cellClass += " sel-past-readonly"; 
-                  if (isLocked) cellClass += " sel-locked";
-                  if (isFlashing) cellClass += " flash-green-active";
+                  let cellClass = "relative min-w-[42px] cursor-pointer border border-[#e5e7eb] px-2 py-2.5 text-center font-semibold transition-all duration-150";
+                  if (s.nilai === 0) cellClass += " bg-[#ecfdf5] text-[#10b981]";
+                  if ((isPast || isFuture) && !isAdmin) cellClass += " !cursor-not-allowed !bg-[#d1d5db] !text-[#6b7280]";
+                  if (isLocked) cellClass += " pointer-events-none bg-[#fee2e2] text-[#ef4444]";
+                  if (isFlashing) cellClass += " animate-[flashGreen_1.4s_ease-in-out]";
 
                   return (
                     <td key={idxTgl} className={cellClass} onClick={(e) => klikSel(e, w.id, idxTgl, s, w.nama)}>
                       {s.nilai === null ? "" : s.nilai}
-                      {w.setoranAwal[idxTgl]?.nilai !== s.nilai && s.diperbaruiTanggal === getTodayInJakarta() && <span className="centang-kecil">✓</span>}
-                      {isLocked && <div className="lock-label">{lockedCells[cellKey]}</div>}
+                      {w.setoranAwal[idxTgl]?.nilai !== s.nilai && s.diperbaruiTanggal === getTodayInJakarta() && <span className="absolute top-px right-0.5 text-[9px] font-bold text-[#16a34a]">✓</span>}
+                      {isLocked && <div className="absolute right-0 bottom-0 left-0 bg-[#f87171] text-[8px] text-white">{lockedCells[cellKey]}</div>}
                     </td>
                   );
                 })}
-                <td className="teks-hijau">{w.setoran.reduce((acc, curr) => acc + (typeof curr.nilai === 'number' && curr.nilai > 0 ? curr.nilai : 0), 0)}</td>
-                <td className="teks-merah" style={{ cursor: w.logHutang ? 'pointer' : 'default', fontWeight: 'bold' }}
+                <td className="min-w-[42px] border border-[#e5e7eb] px-2 py-2.5 text-center font-bold text-[#16a34a]">{w.setoran.reduce((acc, curr) => acc + (typeof curr.nilai === 'number' && curr.nilai > 0 ? curr.nilai : 0), 0)}</td>
+                <td className="min-w-[42px] border border-[#e5e7eb] px-2 py-2.5 text-center font-bold text-[#dc2626]" style={{ cursor: w.logHutang ? 'pointer' : 'default', fontWeight: 'bold' }}
                   onClick={() => { if (w.logHutang) setNotesPopup({ nama: w.nama, log: w.logHutang }) }}>
                   {w.tunggakan > 0 ? `${w.tunggakan}k` : (w.logHutang ? "📜" : "")}
                 </td>
-                <td className="teks-hijau">{w.lebih > 0 ? `${w.lebih}k` : ""}</td>
+                <td className="min-w-[42px] border border-[#e5e7eb] px-2 py-2.5 text-center font-bold text-[#16a34a]">{w.lebih > 0 ? `${w.lebih}k` : ""}</td>
                 <td></td>
               </tr>
             ))}
-            <tr className="row-total-bawah">
-              <td className="sticky-col left-0"></td><td className="sticky-col left-1 font-bold">TOTAL PER HARI</td>
+            <tr>
+              <td className="!sticky left-0 !z-[5] !min-w-[35px] border border-[#e5e7eb] bg-white px-2 py-2.5"></td><td className="!sticky left-[35px] !z-[5] !min-w-[140px] border border-[#e5e7eb] bg-white px-2 py-2.5 text-left font-bold">TOTAL PER HARI</td>
               {listTanggal.map((_, idxTgl) => {
                 const totalHariIni = daftarWarga.reduce((acc, w) => acc + (typeof w.setoran[idxTgl]?.nilai === 'number' && w.setoran[idxTgl].nilai! > 0 ? w.setoran[idxTgl].nilai as number : 0), 0);
                 const status = dailyStatuses[String(idxTgl + 1)];
-                return <td key={idxTgl} className="teks-hijau">
+                return <td key={idxTgl} className="min-w-[42px] border border-[#e5e7eb] px-2 py-2.5 text-center font-bold text-[#16a34a]">
                   <div>{totalHariIni}</div>
                   <small>{status?.status === 'sudah' ? 'Sudah setor' : 'Belum setor'}</small>
-                  {isAdmin && <button className="deposit-toggle" type="button" onClick={() => void ubahStatusSetoranHarian(idxTgl + 1)} aria-label={`Ubah status setor tanggal ${idxTgl + 1}`}>
+                  {isAdmin && <button className="mx-auto mt-[5px] block cursor-pointer rounded-[3px] border border-[#86efac] bg-[#f0fdf4] px-1.5 py-1 text-[10px] text-[#166534]" type="button" onClick={() => void ubahStatusSetoranHarian(idxTgl + 1)} aria-label={`Ubah status setor tanggal ${idxTgl + 1}`}>
                     {status?.status === 'sudah' ? 'Batalkan setor' : 'Tandai setor'}
                   </button>}
                 </td>;
               })}
-              <td className="teks-hijau font-bold">
+              <td className="min-w-[42px] border border-[#e5e7eb] px-2 py-2.5 text-center font-bold text-[#16a34a]">
                 {daftarWarga.reduce((acc, w) => acc + w.setoran.reduce((a, c) => a + (typeof c.nilai === 'number' && c.nilai > 0 ? c.nilai : 0), 0), 0)}
               </td>
               <td></td><td></td><td></td>
@@ -577,7 +577,7 @@ export const Home: React.FC = () => {
       </div>
 
       <div style={{ display: 'flex', gap: '10px', marginTop: '10px' }}>
-        <button className="btn-submit" style={{ flex: 1 }} onClick={eksekusiSelesaiDanKirim} disabled={isSavingReport} aria-busy={isSavingReport}>
+        <button className="mt-auto flex-1 rounded-lg bg-green-600 p-3.5 text-[15px] font-bold text-white shadow-[0_4px_6px_rgba(22,163,74,0.2)]" style={{ flex: 1 }} onClick={eksekusiSelesaiDanKirim} disabled={isSavingReport} aria-busy={isSavingReport}>
           {isSavingReport ? 'Memproses laporan...' : 'Unduh & Simpan Laporan'}
         </button>
       </div>
@@ -592,26 +592,26 @@ export const Home: React.FC = () => {
       )}
 
       {notesPopup && (
-        <div className="overlay-center">
-          <div className="numpad-box" style={{ maxWidth: '320px', textAlign: 'left', padding: '20px' }}>
+        <div className="fixed inset-0 z-100 flex items-center justify-center bg-black/50">
+          <div className="w-[90%] max-w-[320px] rounded-xl bg-white p-5 text-left shadow-[0_4px_20px_rgba(0,0,0,0.2)]" style={{ maxWidth: '320px', textAlign: 'left', padding: '20px' }}>
             <h4 style={{ marginBottom: '12px', borderBottom: '1px solid #ddd', paddingBottom: '8px' }}>Riwayat Tunggakan <br/><span style={{ color: '#2b6cb0', fontSize: '14px' }}>{notesPopup.nama}</span></h4>
             <div style={{ maxHeight: '220px', overflowY: 'auto', fontSize: '13px', whiteSpace: 'pre-wrap', color: '#444', lineHeight: '1.6' }}>
               {notesPopup.log || "Belum ada riwayat pembayaran."}
             </div>
-            <div className="numpad-actions" style={{ marginTop: '20px' }}><button className="btn-simpan" style={{ width: '100%' }} onClick={() => setNotesPopup(null)}>Tutup Catatan</button></div>
+            <div className="mt-5 flex gap-2" style={{ marginTop: '20px' }}><button className="flex-1 rounded-md bg-blue-600 p-3 font-bold text-white" style={{ width: '100%' }} onClick={() => setNotesPopup(null)}>Tutup Catatan</button></div>
           </div>
         </div>
       )}
 
       {numpad && (
-        <div className="overlay-center">
-          <div className="numpad-box">
+        <div className="fixed inset-0 z-100 flex items-center justify-center bg-black/50">
+          <div className="w-[90%] max-w-80 rounded-xl bg-white p-5 shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
             <h4>{numpad.nama} (Tgl {numpad.idxTgl + 1})</h4>
-            <div className="live-calc-container">{dapatkanInfoPopupUIPernyataan(numpad.idWarga, numpad.idxTgl)}</div>
-            <div className="numpad-display">Rp {numpad.val || "0"}.000</div>
-            <div className="numpad-grid">
-              {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(num => (<button key={num} onClick={() => setNumpad({ ...numpad, val: numpad.val + num })}>{num}</button>))}
-              <button className="btn-kosong-instant" onClick={tekanTombolKosongInstant}>KOSONG</button>
+            <div className="my-2 bg-gray-100 p-2 text-center text-xs font-medium">{dapatkanInfoPopupUIPernyataan(numpad.idWarga, numpad.idxTgl)}</div>
+            <div className="mb-3 rounded-md bg-gray-200 p-2.5 text-center text-2xl font-bold">Rp {numpad.val || "0"}.000</div>
+            <div className="grid grid-cols-3 gap-2">
+              {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(num => (<button className="rounded-lg border border-gray-200 bg-gray-50 p-3.5 text-lg font-semibold active:scale-95" key={num} onClick={() => setNumpad({ ...numpad, val: numpad.val + num })}>{num}</button>))}
+              <button className="rounded-lg border border-gray-200 bg-amber-100 p-3.5 text-lg font-semibold text-amber-600 active:scale-95 active:bg-amber-200" onClick={tekanTombolKosongInstant}>KOSONG</button>
               <button 
                 onClick={() => setNumpad({ ...numpad, val: numpad.val + "0" })}
                 disabled={!numpad.val || Number(numpad.val) < 1}
@@ -619,11 +619,11 @@ export const Home: React.FC = () => {
               >
                 0
               </button>
-              <button className="btn-warn" onClick={() => setNumpad({ ...numpad, val: numpad.val.slice(0, -1) })}>⌫</button>
+              <button className="rounded-lg border border-gray-200 bg-red-100 p-3.5 text-lg font-semibold text-red-500 active:scale-95 active:bg-red-300" onClick={() => setNumpad({ ...numpad, val: numpad.val.slice(0, -1) })}>⌫</button>
             </div>
-            <div className="numpad-actions">
-              <button className="btn-batal" onClick={tutupNumpad}>Batal</button>
-              <button className="btn-simpan" onClick={() => simpanNominal(numpad.val)}>OK</button>
+            <div className="mt-3 flex gap-2">
+              <button className="flex-1 rounded-md bg-gray-200 p-3 font-bold active:scale-95" onClick={tutupNumpad}>Batal</button>
+              <button className="flex-1 rounded-md bg-blue-600 p-3 font-bold text-white active:scale-95 active:bg-blue-700" onClick={() => simpanNominal(numpad.val)}>OK</button>
             </div>
           </div>
         </div>

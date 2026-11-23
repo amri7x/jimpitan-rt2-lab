@@ -16,6 +16,8 @@ src/App.tsx                  # Router dan lazy pages
 src/components/Layout.tsx    # Layout halaman
 src/pages/Home.tsx           # Input jimpitan, rollover, laporan PNG dan metadata
 src/data/monthly.ts          # Fungsi bulan dan persiapan data
+packages/core/               # Kontrak domain bersama web/mobile
+apps/mobile/                 # Expo Android development build, Expo Router dan NativeWind
 src/firebase.ts              # Inisialisasi Firebase dari environment demo
 src/index.css                # CSS global
 vite.config.js               # Build/dev dan plugin React
@@ -40,7 +42,7 @@ docs/security-audit.md      # Audit Rules dan dependency yang terbuka
 
 ## Pengujian dan konvensi
 
-Perintah manifest: `npm run dev`, `npm run build`, `npm run lint` (oxlint), `npm run test` (Node strip-types), `npm run test:component` (Vitest), dan `npm run preview`. Component tests memakai mock, bukan Firebase live. Hasil terbaru dan keterbatasan ada di [log utama](docs/ai-development-log.md). Status CI, type-check terpisah, deployment, dan seluruh skema database **belum diverifikasi**.
+Perintah manifest: `npm run dev`, `npm run build`, `npm run lint` (oxlint), `npm run test` (Node strip-types), `npm run test:component` (Vitest), dan `npm run preview`. `npm run build` menjalankan Vite dengan heap Node maksimal 1.536 MiB agar lebih aman pada laptop RAM 8 GB; bila proyek kelak benar-benar memerlukan lebih, evaluasi berdasarkan pengukuran sebelum menaikkan batas. Untuk APK debug Android RAM terbatas gunakan `npm run mobile:build:low-memory`; ia membatasi Gradle dan CMake/Ninja ke satu pekerjaan serta default ke ABI `arm64-v8a` (ubah dengan `MOBILE_ABI=x86_64` untuk emulator yang sesuai). Component tests memakai mock, bukan Firebase live. Hasil terbaru dan keterbatasan ada di [log utama](docs/ai-development-log.md). Status CI, type-check terpisah, deployment, dan seluruh skema database **belum diverifikasi**.
 
 ## Bukti dan riwayat
 

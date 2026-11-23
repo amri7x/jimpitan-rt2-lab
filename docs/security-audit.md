@@ -80,3 +80,18 @@ Keduanya mencantumkan rentang terdampak `<1.13.6`. Severity paket gRPC tetap hig
 Firebase/Firestore/gRPC tidak diubah. Output audit menawarkan `firebase@9.14.0` dengan `isSemVerMajor: true`; saran tersebut bukan persetujuan untuk downgrade. Jangan gunakan `npm audit fix --force` atau override tanpa evaluasi dan persetujuan tersendiri. Selanjutnya periksa kompatibilitas SDK dan jalur runtime, verifikasi pilihan perbaikan pada saat pengerjaan, lalu jalankan regression testing sebelum mengusulkan perubahan. Pengujian authorization Firebase Emulator pada audit Rules tetap belum dilakukan.
 
 Tidak ada perubahan Rules, hosting, commit, push, deploy, atau akses Firebase production dalam pekerjaan dokumentasi ini.
+
+## Pembaruan dependency — 11 November 2026
+
+Workflow [005 — Migrasi Tailwind CSS v4](workflows/005-tailwindcss-v4.md) menambahkan development dependency `@tailwindcss/vite@^4.3.5` untuk integrasi Vite. Resolusi `tailwindcss` berubah dari 4.3.2 menjadi 4.3.5 dalam lockfile karena rentang manifest yang telah ada adalah `^4.3.2`. Tidak ada dependency Firebase, Firestore, atau gRPC yang diubah.
+
+| Pemeriksaan | Sebelum migrasi | Sesudah migrasi |
+|---|---:|---:|
+| `npm audit --json` | 4 high, 0 moderate/critical (catatan audit 31 Oktober) | 4 high, 0 info/low/moderate/critical; exit 1 |
+| `npm audit --omit=dev` | 4 high (catatan audit 31 Oktober) | 4 high; exit 1 |
+
+Jumlah dan severity tidak berubah. Temuan tetap berada pada jalur Firebase/Firestore/gRPC yang telah dijelaskan di atas; audit paket tidak membuktikan eksploitabilitas aplikasi. `npm audit fix --force` tidak dijalankan karena menawarkan downgrade Firebase breaking. Tidak ada perubahan Rules, deployment, atau akses Firebase production.
+
+## Pembaruan workspace mobile — 12 November 2026
+
+Workspace `@jimpitan/mobile` menambahkan Expo 57.0.32, Expo Router 6.0.24, React Native Firebase 27.1.1, NativeWind 4.2.7, dan Tailwind 3.4.17. `npm install --package-lock-only --ignore-scripts` melaporkan 19 temuan: 1 low, 8 moderate, 10 high. Audit paket bukan bukti eksploitabilitas; `npm audit fix --force` tidak dijalankan. Rules, deploy, dan Firebase production tidak diubah.
